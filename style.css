@@ -1,0 +1,68 @@
+h1 {
+  font-family: 'Palette Mosaic', cursive;
+  text-align: center;
+}
+
+nav {
+  background-color: lightgrey;
+  position:sticky;
+  top:-1px;
+}
+
+li {
+  display: inline;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+div, footer, main, article {
+  border: solid grey;
+  /* This just means that the element(s) they appear as they normally would   */
+/*   position: static; */
+  /* we are modifying their position based on what it was originally  */
+}
+
+#d1 {
+  /* horizontal shadow vertical shadow blur color   */
+  text-shadow: 2px 2px 1px orange;
+  position: relative;
+  /*  Will not work with position: static   */
+  left: 100px;
+/*   right: 100px; */
+}
+
+#d2 {
+  text-decoration: green wavy underline;
+  position: relative;
+  left: 200px;
+}
+
+main {
+  background-color: green;
+  height: 400px;
+  position:relative;
+}
+
+article {
+  background-color: lightgrey;
+  width: 50px;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  
+}
+
+footer {
+  line-height: 16px;
+  letter-spacing: 1px;
+  background-color: orange;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
